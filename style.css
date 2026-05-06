@@ -1,0 +1,70 @@
+body {
+    background-color: #E0E5DE;
+}
+
+.top-corner-image {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px; 
+    left: 10px;
+}
+
+.navbar {
+    position: relative;
+    color: #1B1B1B;
+    top: 32px;
+    left: 1300px;
+    font-size: 20px;
+
+}
+
+.hero-shot {
+    color: #1B1B1B;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.hero-image {
+    position: absolute;
+    z-index: -1;
+    top: 90px;
+    right: 60px;
+    width: 606px;
+    height: 564px;
+    object-fit: cover;
+}
+
+.hero-text-1 {
+    color: #1B1B1B;
+    font-size: 50px;
+
+}
+
+.new-line {
+  display: block;
+  font-size: 60px;
+  margin-left: -76px;
+  transform: scale(0.9);
+  line-height: 1.6;
+}
+
+.Projects-off {
+    word-spacing: 400px;
+    margin-left: 230px;
+}
+
+/* Fix this */
+.ProjectTitle {
+    color: #1B1B1B;
+    font-size: 1000px;
+}
+
+.project-one{ 
+    position: relative;
+    color: #1B1B1B;
+    right: -400px;
+}
