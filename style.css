@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "NeueHaas";
+    src: url(NeueHaasDisplayThin.ttf);
+}
+
+
 body {
-    background-color: #E0E5DE;
+    background-color: #1B1B1B;
 }
 
 .top-corner-image {
@@ -12,7 +18,7 @@ body {
 
 .navbar {
     position: relative;
-    color: #1B1B1B;
+    color: #E0E5DE;
     top: 32px;
     left: 1300px;
     font-size: 20px;
@@ -39,7 +45,8 @@ body {
 }
 
 .hero-text-1 {
-    color: #1B1B1B;
+    font-family: "NeueHaas";
+    color: #E0E5DE;
     font-size: 50px;
 
 }
@@ -59,12 +66,24 @@ body {
 
 /* Fix this */
 .ProjectTitle {
-    color: #1B1B1B;
+    color: #6E8C6C;
     font-size: 1000px;
 }
 
 .project-one{ 
     position: relative;
-    color: #1B1B1B;
-    right: -400px;
+    color: #E0E5DE;
+    right: -200px;
+}
+
+.project-two{
+    position: relative;
+    color: #E0E5DE;
+    right: -520px;
+}
+
+.project-three{
+    position: relative;
+    color: #E0E5DE;
+    right: -900px;
 }
